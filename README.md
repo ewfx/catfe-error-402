@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 VisionQA
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
