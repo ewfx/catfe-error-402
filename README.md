@@ -17,6 +17,11 @@ Home Page
 
 <br/>
 
+About Page
+![alt text](artifacts/arch/image-8.png)
+
+<br/>
+
 Project Summary
 ![alt text](artifacts/arch/image-3.png)
 
