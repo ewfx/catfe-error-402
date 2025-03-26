@@ -23,7 +23,7 @@ Project Summary
 <br/>
 
 Chat Interface
-![alt text](artifacts/arch/image1.png)
+![alt text](artifacts/arch/image-1.png)
 
 <br/>
 
