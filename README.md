@@ -12,11 +12,6 @@ BDD testing is crucial for modern software development, but manual creation and 
 📹 **Video Demo:** https://drive.google.com/file/d/1aYgrzA8HfzB8GE7Ex6YE-cmqOHhkR4eL/view?usp=sharing 
 
 ### 🖼️ Screenshots:
-### Home Page
-![alt text](artifacts/arch/image.png)
-
-<br/>
-
 ### About Page
 ![alt text](artifacts/arch/image-8.png)
 
