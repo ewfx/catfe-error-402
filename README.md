@@ -39,6 +39,11 @@ BDD testing is crucial for modern software development, but manual creation and 
 
 ### Test Execution and Allure Report
 ![alt text](artifacts/arch/image-4.png)
+
+<br/>
+
+### Ai Agent
+![alt text](artifacts/arch/langgraph.png)
 <br/>
 ---
 
