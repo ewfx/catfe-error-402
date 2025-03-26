@@ -97,7 +97,7 @@ langgraph dev
 - **Frontend:** React, Tailwind CSS
 - **Backend:** FastAPI
 - **Database:** Pinecone Vector DB
-- **LLM:** Langchain, LLaMA, deepseek-r1-distill-llama-70b, deepseek-r1-distill-qwen-32b
+- **LLM:** Langchain, LLaMA, deepseek-r1-distill-llama-70b, deepseek-r1-distill-qwen-32b, Chat Groq API
 - **Sentence Transformer:** sentence-transformers/all-mpnet-base-v2
 - **Image Processing:** Salesforce BLIP, OCR
 - **Testing and Reporting:** Behave, Allure
