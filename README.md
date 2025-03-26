@@ -14,16 +14,24 @@ BDD testing is crucial for modern software development, but manual creation and 
 ### 🖼️ Screenshots:
 Home Page
 ![alt text](artifacts/arch/image.png)
+
 <br/>
+
 Project Summary
 ![alt text](artifacts/arch/image-3.png)
+
 <br/>
+
 Chat Interface
 ![alt text](artifacts/arch/image1.png)
+
 <br/>
+
 BDD Test Case Generation
 ![alt text](artifacts/arch/image-2.png)
+
 <br/>
+
 Test Execution and Allure Report
 ![alt text](artifacts/arch/image-4.png)
 <br/>
