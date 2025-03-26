@@ -43,9 +43,14 @@ BDD testing is crucial for modern software development, but manual creation and 
 <br/>
 
 ### Ai Agent
-![alt text](artifacts/arch/langchain.png)
-<br/>
 #### <i>Our AI agent combines techniques from Adaptive RAG, Corrective RAG, and Self-RAG to enhance retrieval accuracy and reliability. It dynamically routes queries, falls back to web search when needed, and self-corrects responses to reduce hallucinations and improve answer quality.</i>
+![alt text](artifacts/arch/langchain.png)
+
+<br/>
+
+### Running BDD test cases after generating step definition
+![alt text](artifacts/arch/running_bdd_test_cases.png)
+
 <br/>
 ---
 
