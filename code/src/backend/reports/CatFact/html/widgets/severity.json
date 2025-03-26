@@ -1,0 +1,1 @@
+[{"uid":"e14bda5f70eaa092","name":"Get a limited number of breeds","time":{"start":1742912491595,"stop":1742912492530,"duration":935},"status":"passed","severity":"normal"},{"uid":"8ad3735e63d6b72","name":"Successfully get a list of cat breeds","time":{"start":1742912477401,"stop":1742912478628,"duration":1227},"status":"broken","severity":"normal"}]

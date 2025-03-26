@@ -1,0 +1,195 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+    "id": "10007",
+    "self": "https://error-402.atlassian.net/rest/api/2/issue/10007",
+    "key": "CCS-8",
+    "fields": {
+        "statuscategorychangedate": "2025-03-21T13:14:32.697+0530",
+        "issuetype": {
+            "self": "https://error-402.atlassian.net/rest/api/2/issuetype/10001",
+            "id": "10001",
+            "description": "Tasks track small, distinct pieces of work.",
+            "iconUrl": "https://error-402.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+            "name": "Task",
+            "subtask": false,
+            "avatarId": 10318,
+            "entityId": "8d543838-863b-4dd3-813d-184639fb2169",
+            "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+            "self": "https://error-402.atlassian.net/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "CCS",
+            "name": "GenTestAI",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://error-402.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
+                "24x24": "https://error-402.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421?size=small",
+                "16x16": "https://error-402.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421?size=xsmall",
+                "32x32": "https://error-402.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421?size=medium"
+            }
+        },
+        "customfield_10032": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "customfield_10034": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+            "self": "https://error-402.atlassian.net/rest/api/2/issue/CCS-8/watchers",
+            "watchCount": 1,
+            "isWatching": false
+        },
+        "issuerestriction": {
+            "issuerestrictions": {},
+            "shouldDisplay": true
+        },
+        "lastViewed": "2025-03-24T19:18:59.893+0530",
+        "created": "2025-03-21T13:14:32.406+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+            "self": "https://error-402.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://error-402.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "EPIC_LINK_SHOULD_BE_USED",
+                "message": "To set an epic as the parent, use the epic link instead"
+            }
+        },
+        "customfield_10019": "0|i00013:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+            "self": "https://error-402.atlassian.net/rest/api/2/user?accountId=70121%3A4730d592-c64c-4e65-bf10-385d5421c44a",
+            "accountId": "70121:4730d592-c64c-4e65-bf10-385d5421c44a",
+            "emailAddress": "patni.atishay02@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/9dcdd8850b9f49a4d500b4f27413dfd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-6.png",
+                "24x24": "https://secure.gravatar.com/avatar/9dcdd8850b9f49a4d500b4f27413dfd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-6.png",
+                "16x16": "https://secure.gravatar.com/avatar/9dcdd8850b9f49a4d500b4f27413dfd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-6.png",
+                "32x32": "https://secure.gravatar.com/avatar/9dcdd8850b9f49a4d500b4f27413dfd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-6.png"
+            },
+            "displayName": "Atishay Patni",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+        },
+        "updated": "2025-03-21T13:15:45.007+0530",
+        "status": {
+            "self": "https://error-402.atlassian.net/rest/api/2/status/10000",
+            "description": "",
+            "iconUrl": "https://error-402.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://error-402.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": "To enhance the fraud detection mock API, we need to implement full CRUD (Create, Read, Update, Delete) operations for managing transactions in MongoDB. This will allow users to create new transactions, retrieve specific transactions, update existing ones, and delete them if needed.\n\n*\u270d\ufe0f Acceptance Criteria:*\n\u2705 *POST /transactions* - Create a new transaction and store it in MongoDB\n\u2705 *GET /transactions/{transaction_id}* - Fetch a specific transaction by its *ObjectId*\n\u2705 *PUT /transactions/{transaction_id}* - Update an existing transaction by *ObjectId*\n\u2705 *DELETE /transactions/{transaction_id}* - Remove a transaction from MongoDB\n\u2705 Ensure *error handling* for invalid or missing transaction IDs\n\u2705 Responses should return *JSON format*\n\n*\ud83d\udee0\ufe0f Technical Details:*\n\n* *Backend:* FastAPI (Python)\n* *Database:* MongoDB\n* *ID Management:* Use *ObjectId* for unique transaction identification\n* *Data Validation:* Use *Pydantic* for request validation\n* *Error Handling:* Raise *HTTP 404* if a transaction is not found",
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "attachment": [],
+        "aggregatetimeestimate": null,
+        "summary": "FD-102 Implement CRUD operations for managing transactions in the fraud detection mock API",
+        "creator": {
+            "self": "https://error-402.atlassian.net/rest/api/2/user?accountId=6283b562d9ddcc006e9cee7c",
+            "accountId": "6283b562d9ddcc006e9cee7c",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "24x24": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "16x16": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "32x32": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+            },
+            "displayName": "Pratham Bist",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+            "self": "https://error-402.atlassian.net/rest/api/2/user?accountId=6283b562d9ddcc006e9cee7c",
+            "accountId": "6283b562d9ddcc006e9cee7c",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "24x24": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "16x16": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                "32x32": "https://secure.gravatar.com/avatar/13e4d8c6c0f1bce5cf79b247cafb3411?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+            },
+            "displayName": "Pratham Bist",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://error-402.atlassian.net/rest/api/2/issue/CCS-8/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [],
+            "self": "https://error-402.atlassian.net/rest/api/2/issue/10007/comment",
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": []
+        }
+    }
+}

@@ -1,0 +1,14 @@
+typing_extensions
+langgraph
+pinecone_client
+langchain_core
+pydantic
+typing
+langchain_community
+IPython
+langchain
+pinecone
+langchain_huggingface
+langchain_pinecone
+langchain_groq
+langgraph-cli[inmem]

@@ -1,0 +1,68 @@
+### Chunk 1 ###
+expand: renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice
+key: CCS-8
+fields.statuscategorychangedate: 2025-03-21T13:14:32.697+0530
+fields.issuetype.description: Tasks track small, distinct pieces of work.
+fields.issuetype.name: Task
+fields.issuetype.subtask: False
+fields.issuetype.avatarId: 10318
+fields.project.key: CCS
+fields.project.name: GenTestAI
+fields.project.projectTypeKey: software
+fields.project.simplified: True
+fields.workratio: -1
+fields.watches.watchCount: 1
+fields.watches.isWatching: False
+fields.issuerestriction.shouldDisplay: True
+fields.lastViewed: 2025-03-24T19:18:59.893+0530
+fields.created: 2025-03-21T13:14:32.406+0530
+fields.priority.name: Medium
+fields.customfield_10018.hasEpicLinkFieldDependency: False
+fields.customfield_10018.showField: False
+fields.customfield_10018.nonEditableReason.reason: EPIC_LINK_SHOULD_BE_USED
+
+### Chunk 2 ###
+fields.customfield_10018.nonEditableReason.message: To set an epic as the parent, use the epic link instead
+fields.customfield_10019: 0|i00013:
+fields.assignee.emailAddress: patni.atishay02@gmail.com
+fields.assignee.displayName: Atishay Patni
+fields.updated: 2025-03-21T13:15:45.007+0530
+fields.status.name: To Do
+fields.status.statusCategory.key: new
+fields.status.statusCategory.colorName: blue-gray
+fields.status.statusCategory.name: To Do
+
+### Chunk 3 ###
+fields.description: To enhance the fraud detection mock API, we need to implement full CRUD (Create, Read, Update, Delete) operations for managing transactions in MongoDB. This will allow users to create new transactions, retrieve specific transactions, update existing ones, and delete them if needed.
+
+*✍️ Acceptance Criteria:*
+✅ *POST /transactions* - Create a new transaction and store it in MongoDB
+✅ *GET /transactions/{transaction_id}* - Fetch a specific transaction by its *ObjectId*
+✅ *PUT /transactions/{transaction_id}* - Update an existing transaction by *ObjectId*
+✅ *DELETE /transactions/{transaction_id}* - Remove a transaction from MongoDB
+✅ Ensure *error handling* for invalid or missing transaction IDs
+✅ Responses should return *JSON format*
+
+*🛠️ Technical Details:*
+
+* *Backend:* FastAPI (Python)
+* *Database:* MongoDB
+* *ID Management:* Use *ObjectId* for unique transaction identification
+* *Data Validation:* Use *Pydantic* for request validation
+* *Error Handling:* Raise *HTTP 404* if a transaction is not found
+
+### Chunk 4 ###
+fields.summary: FD-102 Implement CRUD operations for managing transactions in the fraud detection mock API
+fields.creator.displayName: Pratham Bist
+fields.reporter.displayName: Pratham Bist
+fields.aggregateprogress.progress: 0
+fields.aggregateprogress.total: 0
+fields.progress.progress: 0
+fields.progress.total: 0
+fields.comment.maxResults: 0
+fields.comment.total: 0
+fields.comment.startAt: 0
+fields.worklog.startAt: 0
+fields.worklog.maxResults: 20
+fields.worklog.total: 0
+

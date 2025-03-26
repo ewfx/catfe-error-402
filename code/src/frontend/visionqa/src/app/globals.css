@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styling */
+body {
+  @apply bg-background text-textPrimary;
+}
+
+/* Fix font scaling issue across network */
+html {
+  font-size: 16px; /* Ensures font consistency */
+}
+
+/* Buttons */
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-md font-semibold transition-all text-white;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-accent to-main hover:from-main hover:to-accentDarker shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-accent hover:bg-accent text-white;
+  }
+}
+
+/* Navbar */
+.navbar {
+  @apply fixed top-0 left-0 w-full bg-opacity-90 backdrop-blur-lg bg-gray-900 border-b border-gray-700 px-16 py-4 flex items-center justify-between z-50;
+}
+
+.navbar-logo {
+  @apply text-2xl font-bold text-white ml-6; /* Adjusted padding like Modern UI */
+}
+
+.navbar-items {
+  @apply flex gap-12 text-gray-300; /* Increased spacing for balance */
+}
+
+/* Onboarding Page */
+.onboarding-container {
+  @apply w-screen h-screen flex flex-col items-center justify-center text-center relative;
+}
+
+/* Gradient Background */
+.onboarding-gradient {
+  @apply absolute inset-0 w-full h-full bg-gradient-to-r from-[#251f4d] to-[#5a3fc7] -z-10;
+}
+
+/* Onboarding Text */
+.onboarding-title {
+  @apply text-5xl font-bold text-white mb-4 relative;
+}
+
+.onboarding-subtitle {
+  @apply text-lg text-gray-300 mb-6 max-w-2xl relative;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
