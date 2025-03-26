@@ -5,6 +5,7 @@ pyvenv.cfg
 share
 __pycache__
 myenv
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -136,6 +137,7 @@ celerybeat.pid
 
 # Environments
 .venv
+.env
 env/
 venv/
 ENV/

@@ -1,60 +1,83 @@
-# 🚀 VisionQA
+# Context-Aware Testing Application
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+## 🎯 Introduction
+The Context-Aware Testing Application leverages LLM models to automate BDD test case generation and execution. It also provides project summaries and context-aware chat support to simplify the process of writing and executing BDD tests.
+
+### Problem Statement
+BDD testing is crucial for modern software development, but manual creation and maintenance of test cases can be time-consuming and error-prone. This application aims to streamline the process by leveraging LLMs for context-aware BDD generation and automated execution.
 
 ---
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+## 🎥 Demo 
+📹 **Video Demo:** https://drive.google.com/file/d/1aYgrzA8HfzB8GE7Ex6YE-cmqOHhkR4eL/view?usp=sharing 
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+### 🖼️ Screenshots:
+- Screenshot 1: User Onboarding
+- Screenshot 2: Project Summary
+- Screenshot 3: Chat Interface
+- Screenshot 4: BDD Test Case Generation
+- Screenshot 5: Test Execution and Allure Report
 
-![Screenshot 1](link-to-image)
-
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+---
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+- **User Onboarding:** Upload Confluence and JIRA URLs to extract data.
+- **Project Summary:** Generates a comprehensive summary from contextual data.
+- **Context-Aware Chat:** Provides project-related answers and insights.
+- **BDD Test Case Generation:** Creates test cases based on contextual data.
+- **Syntax Validation:** Validates BDD syntax with advanced LLM models.
+- **Step Definition Generation:** Generates precise and executable step definitions.
+- **Test Execution:** Runs tests and generates reports using Allure.
+- **Reporting:** Provides a shareable URL for the generated reports.
 
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+---
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+- Data chunking from unstructured content.
+- Retrieving accurate context from vector embeddings.
+- Validating syntax and generating precise step definitions.
+- Reducing latency in generating chat responses.
+
+---
 
 ## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+
+### Run the Backend
+```bash
+cd code/src/backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Run the Frontend
+```bash
+cd code/src/frontend/visionqa
+npm install
+npm start
+```
+
+### Start the LLM Model
+```bash
+cd code/src/model/
+pip install -r requirements.txt
+cd agent/
+langgraph dev
+```
+
+---
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- **Frontend:** React, Tailwind CSS
+- **Backend:** FastAPI
+- **Database:** Pinecone Vector DB
+- **LLM:** Langchain, LLaMA, deepseek-r1-distill-llama-70b, deepseek-r1-distill-qwen-32b
+- **Sentence Transformer:** sentence-transformers/all-mpnet-base-v2
+- **Image Processing:** Salesforce BLIP, OCR
+- **Testing and Reporting:** Behave, Allure
+
+---
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Atishay** - [GitHub](https://github.com/apatni24) 
+- **Pranav** - [GitHub](https://github.com/psharma-4) 
+- **Pranav** - [GitHub](https://github.com/pr-atha-m)
