@@ -12,12 +12,16 @@ BDD testing is crucial for modern software development, but manual creation and 
 📹 **Video Demo:** https://drive.google.com/file/d/1aYgrzA8HfzB8GE7Ex6YE-cmqOHhkR4eL/view?usp=sharing 
 
 ### 🖼️ Screenshots:
-- Screenshot 1: User Onboarding
-- Screenshot 2: Project Summary
-- Screenshot 3: Chat Interface
-- Screenshot 4: BDD Test Case Generation
-- Screenshot 5: Test Execution and Allure Report
-
+Home Page
+![alt text](image.png)
+Project Summary
+![alt text](image-3.png)
+Chat Interface
+![alt text](image-1.png)
+BDD Test Case Generation
+![alt text](image-2.png)
+Test Execution and Allure Report
+![alt text](image-4.png)
 ---
 
 ## ⚙️ What It Does
