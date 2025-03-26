@@ -80,4 +80,4 @@ langgraph dev
 ## 👥 Team
 - **Atishay** - [GitHub](https://github.com/apatni24) 
 - **Pranav** - [GitHub](https://github.com/psharma-4) 
-- **Pranav** - [GitHub](https://github.com/pr-atha-m)
+- **Pratham** - [GitHub](https://github.com/pr-atha-m)
