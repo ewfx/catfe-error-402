@@ -43,7 +43,7 @@ BDD testing is crucial for modern software development, but manual creation and 
 <br/>
 
 ### Ai Agent
-![alt text](artifacts/arch/langgraph.png)
+![alt text](artifacts/arch/langchain.png)
 <br/>
 ---
 
